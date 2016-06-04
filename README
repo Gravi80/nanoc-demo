@@ -1,0 +1,38 @@
+You'll need RVM + Ruby 2.3.1
+
+Install RVM
+$ \curl -L https://get.rvm.io | bash -s stable
+
+
+If You Already Have RVM Installed
+	$ rvm get stable --autolibs=enable
+
+
+$ rvm install ruby-2.3.1
+
+$ rvm ruby-2.3.1
+
+$ gem install nanoc --version '~> 4.2'
+
+$ nanoc create-site my-site-name
+
+create .gitignore, ruby-gemset, ruby-version, bundle-config, Gemfile
+
+$ gem install bundler
+
+$ bundle install
+
+
+compile the site
+----------------
+bundle exec nanoc
+
+
+view the site
+--------------
+bundle exec nanoc view
+
+
+Other commands
+---------------
+$ rvm gemset list

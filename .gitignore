@@ -1,0 +1,17 @@
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# sublime
+*.sublime-workspace
+
+# Nanoc
+tmp
+/output
+/gh-pages
+*.log
+.bundle
+.idea/
+/.bundle
+/vendor/bundle
