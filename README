@@ -36,3 +36,9 @@ bundle exec nanoc view
 Other commands
 ---------------
 $ rvm gemset list
+
+
+
+
+https://www.netlify.com/blog/2016/03/08/a-step-by-step-nanoc-on-netlify
+http://clarkdave.net/2012/02/building-a-static-blog-with-nanoc/
